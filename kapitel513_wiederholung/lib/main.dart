@@ -22,8 +22,7 @@ class MyApp extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                MyBox(
-                ),
+                MyBox(),
                 MyBox(),
               ],
             ),

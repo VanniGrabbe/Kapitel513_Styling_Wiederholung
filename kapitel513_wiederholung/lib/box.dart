@@ -26,17 +26,16 @@ class MyBox extends StatelessWidget {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
+            
             children: [
               Image.asset(
                 'assets/images/pexels-pixabay-207983 (1).jpg',
-                width: 100,
-                height: 100,
+               
               ),
-              const Center(
-                  child: Text(
+              const Text(
                 'Whoop Whoop',
                 style: TextStyle(fontWeight: FontWeight.w700, fontSize: 20),
-              )),
+              ),
             ],
           ),
         ),
