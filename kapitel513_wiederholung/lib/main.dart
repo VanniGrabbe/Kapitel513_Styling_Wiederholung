@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(
-                vertical: 10,
+                vertical: 20,
               ),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
